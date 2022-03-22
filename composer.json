@@ -1,0 +1,20 @@
+{
+    "name": "prepyev/b24-skad",
+    "autoload": {
+        "psr-4": {
+            "Scad\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Peter Repyev",
+            "email": "p.repyev@gmail.com"
+        }
+    ],
+    "require": {
+        "andrey-tech/bitrix24-api-php": "^1.7",
+         "slim/slim": "2.*",
+        "guzzlehttp/guzzle": "^7.4",
+        "austinhyde/iniparser": "dev-master"
+    }
+}
